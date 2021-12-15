@@ -1,0 +1,30 @@
+html, body{
+    background-color: #222831;
+    width: 100%;
+}
+.judul{
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+}
+.gambar{
+    text-align: center;
+}
+.btn, .btn-lg, .getstarted{
+    margin-top: 2rem;
+    background-color: #61dafb;
+    text-align: center;
+    font-weight: 500;
+}
+.otak-01{
+    width: 30rem;
+}
+
+@media only screen and (max-width: 768px){
+    .judul{
+        margin-top: 3.5rem;
+    }
+    .otak-01{
+        width: 20rem;
+    }
+}
